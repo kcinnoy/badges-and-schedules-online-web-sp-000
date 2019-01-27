@@ -17,7 +17,7 @@ def assign_rooms(speaker)
   return attendees
 end
 
-def printer(attendees)
-  batch_badge_creator.map { |attendees| puts attendees }
-  assign_rooms.map { |attendees| puts attendees }
+def printer(name)
+  batch_badge_creator(name).map { |attendees| puts attendees }
+  assign_rooms(name).map { |attendees| puts attendees }
 end
