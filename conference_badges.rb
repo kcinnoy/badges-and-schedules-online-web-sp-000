@@ -8,6 +8,16 @@ def batch_badge_creator(name_array)
   end
 end
 
+
+
+arr = ["Edsger.","Ada.",
+                "Charles.",
+                "Alan.",
+                "Grace.",
+                "Linus.",
+                "Matz."
+             ]
+
 def assign_rooms(speaker)
   attendees = []
   speaker.each_with_index do |name,index|
@@ -19,3 +29,5 @@ end
 def printer(badge)
   badge.map { |attendees| puts attendees  }
 end
+
+assign_rooms(arr)
