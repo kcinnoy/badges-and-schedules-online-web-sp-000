@@ -17,6 +17,7 @@ def assign_rooms(speaker)
 end
 
 def printer(badge)
-  badge.map { |e| puts e  }
-  rooms.map { |e| puts e  }
+  badge.map { |attendees| puts attendees  }
 end
+
+printer(assign_rooms)
