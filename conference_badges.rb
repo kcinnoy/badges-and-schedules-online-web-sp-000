@@ -17,6 +17,6 @@ def assign_rooms(speaker)
 end
 
 def printer(badge,rooms)
-  puts badge.split
-  puts rooms.split
+  puts badge(name_array)
+  puts rooms(speaker)
 end
