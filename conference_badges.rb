@@ -19,5 +19,3 @@ end
 def printer(badge)
   badge.map { |attendees| puts attendees  }
 end
-
-printer(assign_rooms)
