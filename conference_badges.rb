@@ -20,3 +20,4 @@ def printer(badge,rooms)
   badge.map { |e| puts e  }
   rooms.map { |e| puts e  }
   end
+end
